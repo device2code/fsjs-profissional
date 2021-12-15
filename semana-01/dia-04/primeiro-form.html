@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>S1-D4: Exercício 1o Formulário</title>
+</head>
+<body>
+    <h3>Cadastro da liga dos Astronautas</h3>
+    <form>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <br><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="date-birthday">Data Nascimento:</label>
+            <input type="date" name="date-birthday" id="date-birthday">
+            <label for="photo">Foto:</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <br>
+        <div>
+            <label>Nacionalidade</label>
+            <select name="nationality" id="nationality">
+                <option value="russian">Russa</option>
+                <option value="american">Americana</option>
+                <option value="brazilian">Brasileira</option>
+            </select>
+            <label>Gênero: </label>
+            <label for="female">Feminino</label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">Masculino</label>
+            <input type="radio" name="gender" id="male">
+        </div>
+        <br>
+        <div>
+            <p>Suas principais qualidades:</p>
+            <input type="checkbox" id="skill1" name="skill1">
+            <label for="skill1">Inteligência</label>
+            <input type="checkbox" id="skill2" name="skill2">
+            <label for="skill2">Resiliência</label>
+            <input type="checkbox" id="skill3" name="skill3">
+            <label for="skill3">Preparo Físico</label>
+            <input type="checkbox" id="skill4" name="skill4">
+            <label for="skill4">Educação</label>
+        </div>
+        <br>
+        <div>
+            <textarea name="motivo" id="motivo" cols="30" rows="5">Por que você gostaria de ser um astronauta?</textarea><br><br>
+            <input type="submit" value="Criar">
+        </div>
+    </form>
+</body>
+</html>
